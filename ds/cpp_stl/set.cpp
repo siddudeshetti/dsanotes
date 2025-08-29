@@ -16,6 +16,11 @@ it points to the node containing 2.
 *it gives the value stored in that node.
 ++it moves to the next element in sorted order.
 
+Time Complexity:
+    Insertion: O(log n)
+    Search: O(log n)
+    Deletion: O(log n)
+
 */
 
 
@@ -73,4 +78,5 @@ int main() {
     //     solve();
     // }
     return 0;
+
 }
